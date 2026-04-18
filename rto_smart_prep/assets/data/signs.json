@@ -1,0 +1,27 @@
+[
+    {
+        "name": "No Parking",
+        "image": "assets/signs/no_parking.png",
+        "description": "Parking is not allowed"
+    },
+    {
+        "name": "Stop",
+        "image": "assets/signs/stop.png",
+        "description": "Stop the vehicle completely"
+    },
+    {
+        "name": "U-Turn Prohibited",
+        "image": "assets/signs/no_u_turn.png",
+        "description": "U-turn is strictly prohibited here"
+    },
+    {
+        "name": "Give Way",
+        "image": "assets/signs/give_way.png",
+        "description": "Give way to other traffic"
+    },
+    {
+        "name": "Speed Limit 50",
+        "image": "assets/signs/speed_50.png",
+        "description": "Do not exceed 50 km/h"
+    }
+]

@@ -1,0 +1,4362 @@
+[
+    {
+        "question": "Q1: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q2: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q3: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q4: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q5: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q6: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q7: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q8: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q9: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q10: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q11: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q12: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q13: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q14: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q15: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q16: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q17: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q18: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q19: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q20: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q21: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q22: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q23: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q24: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q25: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q26: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q27: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q28: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q29: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q30: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q31: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q32: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q33: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q34: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q35: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q36: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q37: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q38: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q39: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q40: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q41: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q42: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q43: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q44: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q45: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q46: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q47: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q48: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q49: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q50: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q51: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q52: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q53: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q54: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q55: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q56: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q57: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q58: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q59: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q60: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q61: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q62: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q63: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q64: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q65: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q66: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q67: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q68: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q69: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q70: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q71: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q72: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q73: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q74: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q75: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q76: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q77: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q78: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q79: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q80: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q81: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q82: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q83: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q84: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q85: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q86: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q87: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q88: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q89: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q90: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q91: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q92: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q93: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q94: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q95: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q96: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q97: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q98: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q99: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q100: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q101: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q102: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q103: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q104: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q105: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q106: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q107: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q108: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q109: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q110: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q111: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q112: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q113: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q114: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q115: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q116: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q117: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q118: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q119: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q120: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q121: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q122: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q123: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q124: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q125: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q126: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q127: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q128: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q129: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q130: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q131: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q132: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q133: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q134: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q135: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q136: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q137: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q138: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q139: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q140: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q141: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q142: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q143: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q144: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q145: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q146: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q147: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q148: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q149: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q150: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q151: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q152: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q153: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q154: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q155: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q156: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q157: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q158: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q159: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q160: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q161: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q162: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q163: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q164: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q165: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q166: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q167: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q168: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q169: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q170: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q171: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q172: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q173: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q174: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q175: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q176: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q177: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q178: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q179: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q180: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q181: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q182: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q183: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q184: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q185: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q186: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q187: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q188: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q189: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q190: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q191: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q192: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q193: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q194: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q195: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q196: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q197: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q198: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q199: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q200: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q201: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q202: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q203: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q204: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q205: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q206: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q207: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q208: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q209: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q210: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q211: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q212: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q213: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q214: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q215: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q216: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q217: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q218: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q219: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q220: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q221: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q222: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q223: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q224: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q225: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q226: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q227: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q228: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q229: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q230: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q231: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q232: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q233: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q234: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q235: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q236: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q237: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q238: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q239: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q240: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q241: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q242: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q243: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q244: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q245: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q246: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q247: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q248: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q249: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q250: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q251: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q252: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q253: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q254: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q255: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q256: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q257: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q258: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q259: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q260: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q261: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q262: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q263: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q264: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q265: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q266: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q267: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q268: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q269: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q270: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q271: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q272: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q273: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q274: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q275: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q276: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q277: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q278: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q279: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q280: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q281: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q282: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q283: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q284: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q285: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q286: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q287: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q288: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q289: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q290: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q291: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q292: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q293: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q294: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q295: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q296: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q297: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q298: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q299: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q300: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q301: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q302: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q303: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q304: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q305: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q306: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q307: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q308: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q309: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q310: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q311: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q312: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q313: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q314: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q315: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q316: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q317: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q318: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q319: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q320: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q321: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q322: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q323: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q324: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q325: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q326: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q327: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q328: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q329: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q330: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q331: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q332: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q333: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q334: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q335: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q336: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q337: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q338: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q339: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q340: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q341: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q342: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q343: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q344: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q345: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q346: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q347: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q348: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q349: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q350: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q351: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q352: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q353: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q354: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q355: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q356: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q357: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q358: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q359: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q360: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q361: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q362: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q363: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q364: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q365: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q366: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q367: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q368: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q369: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q370: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q371: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q372: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q373: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q374: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q375: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q376: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q377: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q378: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q379: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q380: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q381: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q382: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q383: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q384: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q385: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q386: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q387: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q388: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q389: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q390: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q391: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q392: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q393: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q394: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q395: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q396: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q397: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q398: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q399: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q400: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q401: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q402: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q403: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q404: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q405: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q406: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q407: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q408: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q409: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q410: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q411: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q412: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q413: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q414: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q415: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q416: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q417: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q418: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q419: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q420: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q421: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q422: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q423: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q424: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q425: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q426: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q427: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q428: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q429: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q430: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q431: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    },
+    {
+        "question": "Q432: You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+        "options": [
+            "Increase the speed and try to cross",
+            "Put on the head light and pass",
+            "Wait till the other vehicle crosses the bridge",
+            "Sound horn and proceed"
+        ],
+        "answer": "Wait till the other vehicle crosses the bridge"
+    },
+    {
+        "question": "Q433: When a vehicle is involved in an accident causing injury to any person",
+        "options": [
+            "Take the vehicle to nearest police station",
+            "Stop the vehicle and report to police and secure medical attention",
+            "Flee the scene",
+            "Take to home immediately"
+        ],
+        "answer": "Stop the vehicle and report to police and secure medical attention"
+    },
+    {
+        "question": "Q434: On a road designated as one way",
+        "options": [
+            "Parking is prohibited",
+            "Should not drive in reverse gear",
+            "Both are allowed",
+            "Overtaking is must"
+        ],
+        "answer": "Should not drive in reverse gear"
+    },
+    {
+        "question": "Q435: You can overtake a vehicle in front",
+        "options": [
+            "Through the right side of that vehicle",
+            "Through the left side",
+            "From any side",
+            "Only at night"
+        ],
+        "answer": "Through the right side of that vehicle"
+    },
+    {
+        "question": "Q436: Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+        "options": [
+            "Sound horn and proceed",
+            "Slow down, sound horn and pass",
+            "Stop the vehicle and wait till the pedestrians cross the road",
+            "Proceed keeping to the left"
+        ],
+        "answer": "Stop the vehicle and wait till the pedestrians cross the road"
+    }
+]
