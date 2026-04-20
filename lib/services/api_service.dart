@@ -5,13 +5,7 @@ import 'package:flutter/foundation.dart';
 import '../models/question.dart';
 
 class ApiService {
-  // Use localhost for local development (Chrome/Desktop), otherwise use production
-  static String get baseUrl {
-    if (kIsWeb && kDebugMode) {
-      return "http://localhost:3000/api";
-    }
-    return "https://rto-learning-licence-preparation-app.onrender.com/api";
-  }
+  static const String baseUrl = "https://rto-learning-licence-preparation-app.onrender.com/api";
 
   // Shared preferences keys
   static const String keyToken = 'auth_token';
@@ -84,10 +78,15 @@ class ApiService {
   }
 
   // 3. Fetch Quiz (15 random questions)
-  Future<List<Question>> fetchQuiz() async {
+  Future<List<Question>> fetchQuiz({List<int>? excludeIds}) async {
     try {
+      String url = '$baseUrl/quiz';
+      if (excludeIds != null && excludeIds.isNotEmpty) {
+        url += '?exclude=${excludeIds.join(',')}';
+      }
+      
       final response = await http.get(
-        Uri.parse('$baseUrl/quiz'),
+        Uri.parse(url),
         headers: await _getHeaders(),
       );
 

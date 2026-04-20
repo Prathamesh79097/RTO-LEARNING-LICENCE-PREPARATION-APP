@@ -239,11 +239,43 @@ app.get('/api/quiz', async (req, res) => {
   try {
     const questionsPath = path.join(__dirname, 'questions.json');
     const data = fs.readFileSync(questionsPath, 'utf8');
-    const questions = JSON.parse(data);
+    const questions = JSON.parse(data).map((q, index) => ({...q, id: index}));
     
-    // Shuffle and pick 15 random questions
-    const shuffled = questions.sort(() => 0.5 - Math.random());
-    const selected = shuffled.slice(0, 15);
+    // Optional: Get list of question IDs to exclude (to avoid repeats)
+    const excludeIds = req.query.exclude ? req.query.exclude.split(',').map(id => parseInt(id, 10)) : [];
+    
+    // Filter out "broken" sign questions and already seen questions
+    const validQuestions = questions.filter(q => {
+      const text = q.question.toLowerCase();
+      // Expanded keywords for visual-based questions
+      const isVisualQuestion = text.includes('sign') || 
+                               text.includes('signal') || 
+                               text.includes('represents') || 
+                               text.includes('indicates') ||
+                               text.includes('symbol');
+                               
+      const requiresImage = isVisualQuestion && !q.image;
+      const isExcluded = excludeIds.includes(q.id); // Assuming questions.json has 'id'. If not, we'll use index.
+      
+      return !requiresImage && !isExcluded;
+    });
+
+    // Split into pools
+    // Note: If questions.json doesn't have an 'id' field, we assign them based on index
+    const pool = validQuestions.map((q, index) => ({...q, id: q.id || index}));
+    
+    const withImage = pool.filter(q => q.image);
+    const withoutImage = pool.filter(q => !q.image);
+
+    // Weighted Sampling: Target 12 with images, 3 text-based
+    const shuffledWith = withImage.sort(() => 0.5 - Math.random());
+    const shuffledWithout = withoutImage.sort(() => 0.5 - Math.random());
+
+    const selectedWith = shuffledWith.slice(0, 12);
+    const needed = 15 - selectedWith.length;
+    const selectedWithout = shuffledWithout.slice(0, needed);
+
+    const selected = [...selectedWith, ...selectedWithout].sort(() => 0.5 - Math.random());
     
     // Transform question objects to include full URLs for images
     const protocol = req.protocol;
