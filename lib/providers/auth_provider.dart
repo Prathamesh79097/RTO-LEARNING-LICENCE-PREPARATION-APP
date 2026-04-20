@@ -23,7 +23,8 @@ class AuthProvider with ChangeNotifier {
   bool get isLoggedIn => _userId != null && _token != null;
 
   AuthProvider() {
-    _loadUser();
+    // Force logout on startup to ensure account is logged out after closing app
+    logout();
   }
 
   Future<void> _loadUser() async {
