@@ -26,33 +26,52 @@ const authLimiter = rateLimit({
   message: { error: 'Too many login attempts, please try again after 15 minutes' }
 });
 
-// MySQL Database configuration - Using names from .env file
+// MySQL Database configuration - Support new and old .env names, plus MYSQL_URL
+// MySQL Database configuration - Support new and old .env names, plus MYSQL_URL
 const dbConfig = {
   host: process.env.MYSQLHOST || 'localhost',
   user: process.env.MYSQLUSER || 'root',
-  password: process.env.MYSQLPASSWORD || '',
+  password: process.env.MYSQL_ROOT_PASSWORD || process.env.MYSQLPASSWORD || '',
   port: parseInt(process.env.MYSQLPORT || '3306', 10),
-  database: process.env.MYSQLDATABASE || 'rto_app_db'
+  database: process.env.MYSQL_DATABASE || process.env.MYSQLDATABASE || 'rto_app_db'
 };
+
+// Prioritize Public URL for local development, fall back to internal URL
+const MYSQL_URL = process.env.MYSQL_PUBLIC_URL || process.env.MYSQL_URL || null;
 
 let pool;
 
 async function initDB() {
   try {
-    // 1. Connection using exact pattern requested by user
-    const connection = await mysql.createConnection({
-      host: dbConfig.host,
-      user: dbConfig.user,
-      password: dbConfig.password,
-      port: dbConfig.port
-    });
-
-    // 2. Ensure database exists
-    await connection.query(`CREATE DATABASE IF NOT EXISTS \`${dbConfig.database}\``);
+    let connection;
+    
+    // 1. Connection attempt
+    if (MYSQL_URL) {
+      // If URL is provided, use it
+      connection = await mysql.createConnection(MYSQL_URL);
+      console.log('Connected using Database URL');
+    } else {
+      // Fallback to individual config if no URL
+      connection = await mysql.createConnection({
+        host: dbConfig.host,
+        user: dbConfig.user,
+        password: dbConfig.password,
+        port: dbConfig.port
+      });
+      await connection.query(`CREATE DATABASE IF NOT EXISTS \`${dbConfig.database}\``);
+    }
+    
     await connection.end();
 
-    // 3. Create the pool for application-wide use
-    pool = mysql.createPool({
+    // 2. Create the pool for application-wide use
+    pool = mysql.createPool(MYSQL_URL ? {
+      uri: MYSQL_URL,
+      waitForConnections: true,
+      connectionLimit: 10,
+      queueLimit: 0,
+      multipleStatements: true,
+      ssl: process.env.MYSQL_SSL ? { rejectUnauthorized: false } : undefined
+    } : {
       ...dbConfig,
       waitForConnections: true,
       connectionLimit: 10,
@@ -69,7 +88,11 @@ async function initDB() {
       
       if (fs.existsSync(sqlPath)) {
         try {
-          const sql = fs.readFileSync(sqlPath, 'utf8');
+          const buffer = fs.readFileSync(sqlPath);
+          // Check for UTF-16 BOM or character patterns
+          const isUtf16 = buffer[0] === 0xff && buffer[1] === 0xfe || buffer.includes(Buffer.from([0, 0]));
+          const sql = buffer.toString(isUtf16 ? 'utf16le' : 'utf8');
+          
           await pool.query(sql);
           console.log('Database seeded successfully from database.sql.');
         } catch (seedError) {
