@@ -17,7 +17,7 @@ class _HomeScreenState extends State<HomeScreen> {
   void initState() {
     super.initState();
     WidgetsBinding.instance.addPostFrameCallback((_) {
-      Provider.of<QuizProvider>(context, listen: false).loadQuestions();
+      Provider.of<QuizProvider>(context, listen: false).fetchQuiz();
       Provider.of<AuthProvider>(context, listen: false).fetchAssessment();
     });
   }
@@ -94,9 +94,10 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
               const SizedBox(height: 32),
               ElevatedButton.icon(
-                onPressed: () {
+                onPressed: () async {
                   final quizProvider = Provider.of<QuizProvider>(context, listen: false);
-                  quizProvider.startQuiz();
+                  await quizProvider.fetchQuiz();
+                  if (!context.mounted) return;
                   Navigator.pushNamed(context, '/quiz');
                 },
                 icon: const Icon(Icons.play_arrow, size: 28),
@@ -195,7 +196,7 @@ class _HomeScreenState extends State<HomeScreen> {
             children: [
               CircleAvatar(
                 radius: 30,
-                backgroundColor: color.withOpacity(0.2),
+                backgroundColor: color.withValues(alpha: 0.2),
                 child: Icon(icon, size: 30, color: color),
               ),
               const SizedBox(width: 16),
@@ -240,7 +241,7 @@ class _HomeScreenState extends State<HomeScreen> {
           margin: const EdgeInsets.only(bottom: 8.0),
           child: ListTile(
             leading: CircleAvatar(
-              backgroundColor: isPass ? Colors.green.withOpacity(0.2) : Colors.red.withOpacity(0.2),
+              backgroundColor: isPass ? Colors.green.withValues(alpha: 0.2) : Colors.red.withValues(alpha: 0.2),
               child: Icon(
                 isPass ? Icons.check_circle : Icons.cancel,
                 color: isPass ? Colors.green : Colors.red,

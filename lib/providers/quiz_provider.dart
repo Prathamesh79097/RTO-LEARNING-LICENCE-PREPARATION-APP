@@ -1,21 +1,23 @@
 import 'package:flutter/material.dart';
 import '../models/question.dart';
-import '../services/data_service.dart';
+import '../services/api_service.dart';
 
 class QuizProvider with ChangeNotifier {
-  List<Question> _allQuestions = [];
-  List<Question> _quizQuestions = [];
+  final ApiService _apiService = ApiService();
   
+  List<Question> _quizQuestions = [];
   int _currentQuestionIndex = 0;
   int _score = 0;
   int _attemptedQuestions = 0;
   bool _isQuizActive = false;
+  bool _isLoading = false;
 
   List<Question> get quizQuestions => _quizQuestions;
   int get currentQuestionIndex => _currentQuestionIndex;
   int get score => _score;
   int get attemptedQuestions => _attemptedQuestions;
   bool get isQuizActive => _isQuizActive;
+  bool get isLoading => _isLoading;
   
   Question? get currentQuestion {
     if (_quizQuestions.isNotEmpty && _currentQuestionIndex < _quizQuestions.length) {
@@ -24,24 +26,25 @@ class QuizProvider with ChangeNotifier {
     return null;
   }
 
-  Future<void> loadQuestions() async {
-    final dataService = DataService();
-    _allQuestions = await dataService.loadQuestions();
+  // Fetch 15 random questions from backend
+  Future<void> fetchQuiz() async {
+    _isLoading = true;
+    _isQuizActive = false;
     notifyListeners();
-  }
 
-  void startQuiz() {
-    if (_allQuestions.isEmpty) return;
-    
-    // Shuffle and pick 15
-    _allQuestions.shuffle();
-    _quizQuestions = _allQuestions.take(15).toList();
-    
-    _currentQuestionIndex = 0;
-    _score = 0;
-    _attemptedQuestions = 0;
-    _isQuizActive = true;
-    notifyListeners();
+    try {
+      _quizQuestions = await _apiService.fetchQuiz();
+      _currentQuestionIndex = 0;
+      _score = 0;
+      _attemptedQuestions = 0;
+      _isQuizActive = true;
+    } catch (e) {
+      debugPrint("Error fetching quiz: $e");
+      _quizQuestions = [];
+    } finally {
+      _isLoading = false;
+      notifyListeners();
+    }
   }
 
   void answerQuestion(String selectedOption) {
@@ -74,4 +77,7 @@ class QuizProvider with ChangeNotifier {
     _attemptedQuestions = 0;
     notifyListeners();
   }
+
+  // Calculate if PASS (>= 9 correct)
+  bool get isPass => _score >= 9;
 }

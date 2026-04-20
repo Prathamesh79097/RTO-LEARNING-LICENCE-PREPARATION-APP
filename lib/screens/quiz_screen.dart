@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../providers/quiz_provider.dart';
+import '../providers/auth_provider.dart';
 
 class QuizScreen extends StatefulWidget {
   const QuizScreen({super.key});
@@ -101,10 +102,21 @@ class _QuizScreenState extends State<QuizScreen> {
                                 ),
                                 if (currentQuestion.image != null) ...[
                                   const SizedBox(height: 20),
-                                  Image.asset(
+                                  Image.network(
                                     currentQuestion.image!,
                                     height: 150,
                                     fit: BoxFit.contain,
+                                    loadingBuilder: (context, child, loadingProgress) {
+                                      if (loadingProgress == null) return child;
+                                      return Center(
+                                        child: CircularProgressIndicator(
+                                          value: loadingProgress.expectedTotalBytes != null
+                                              ? loadingProgress.cumulativeBytesLoaded /
+                                                  loadingProgress.expectedTotalBytes!
+                                              : null,
+                                        ),
+                                      );
+                                    },
                                     errorBuilder: (ctx, err, stack) => const Icon(Icons.broken_image, size: 50, color: Colors.grey),
                                   ),
                                 ],
@@ -127,12 +139,12 @@ class _QuizScreenState extends State<QuizScreen> {
                                           border: Border.all(
                                             color: isSelected 
                                               ? Theme.of(context).colorScheme.primary 
-                                              : Colors.grey.withOpacity(0.5),
+                                              : Colors.grey.withValues(alpha: 0.5),
                                             width: isSelected ? 2 : 1,
                                           ),
                                           borderRadius: BorderRadius.circular(12),
                                           color: isSelected 
-                                            ? Theme.of(context).colorScheme.primary.withOpacity(0.1)
+                                            ? Theme.of(context).colorScheme.primary.withValues(alpha: 0.1)
                                             : null,
                                         ),
                                         child: Row(
@@ -156,7 +168,7 @@ class _QuizScreenState extends State<QuizScreen> {
                                       ),
                                     ),
                                   );
-                                }).toList(),
+                                }),
                               ],
                             ),
                           ),
@@ -173,6 +185,16 @@ class _QuizScreenState extends State<QuizScreen> {
                                   });
                                   
                                   if (!quizProvider.isQuizActive) {
+                                    // Submit to backend
+                                    final authProvider = Provider.of<AuthProvider>(context, listen: false);
+                                    authProvider.saveQuizResult(
+                                      score: quizProvider.score,
+                                      attempted: quizProvider.attemptedQuestions,
+                                      correct: quizProvider.score,
+                                      wrong: quizProvider.attemptedQuestions - quizProvider.score,
+                                      percentage: (quizProvider.score / quizProvider.quizQuestions.length) * 100,
+                                      result: quizProvider.isPass ? 'PASS' : 'FAIL',
+                                    );
                                     Navigator.pushReplacementNamed(context, '/result');
                                   }
                                 },

@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import '../models/question.dart';
 import '../models/traffic_rule.dart';
@@ -11,7 +12,7 @@ class DataService {
       final List<dynamic> data = json.decode(response);
       return data.map((json) => Question.fromJson(json)).toList();
     } catch (e) {
-      print("Error loading questions: $e");
+      debugPrint("Error: $e");
       return [];
     }
   }
@@ -22,7 +23,7 @@ class DataService {
       final List<dynamic> data = json.decode(response);
       return data.map((json) => TrafficRule.fromJson(json)).toList();
     } catch (e) {
-      print("Error loading rules: $e");
+      debugPrint("Error: $e");
       return [];
     }
   }
@@ -33,7 +34,7 @@ class DataService {
       final List<dynamic> data = json.decode(response);
       return data.map((json) => TrafficSign.fromJson(json)).toList();
     } catch (e) {
-      print("Error loading signs: $e");
+      debugPrint("Error: $e");
       return [];
     }
   }

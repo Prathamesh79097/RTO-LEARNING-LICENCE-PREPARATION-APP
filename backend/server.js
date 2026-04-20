@@ -15,6 +15,7 @@ const app = express();
 app.use(helmet());
 app.use(cors());
 app.use(express.json());
+app.use('/images', express.static(path.join(__dirname, 'public/images')));
 
 const PORT = process.env.PORT || 3000;
 const JWT_SECRET = process.env.JWT_SECRET || 'fallback_secret';
@@ -155,6 +156,15 @@ function authenticateToken(req, res, next) {
 
 // ---------------- ROUTES ----------------
 
+// Health Check for Render/Monitoring
+app.get('/api/health', (req, res) => {
+  res.json({ 
+    status: 'UP', 
+    timestamp: new Date().toISOString(),
+    db_connected: pool ? true : false 
+  });
+});
+
 app.post('/api/register', authLimiter, async (req, res) => {
   const { name, email, password } = req.body;
   if (!name || !email || !password) {
@@ -224,10 +234,45 @@ app.post('/api/login', authLimiter, async (req, res) => {
   }
 });
 
-// Secured Endpoints
-app.post('/api/saveQuizResult', authenticateToken, async (req, res) => {
+// Quiz Endpoints
+app.get('/api/quiz', async (req, res) => {
+  try {
+    const questionsPath = path.join(__dirname, 'questions.json');
+    const data = fs.readFileSync(questionsPath, 'utf8');
+    const questions = JSON.parse(data);
+    
+    // Shuffle and pick 15 random questions
+    const shuffled = questions.sort(() => 0.5 - Math.random());
+    const selected = shuffled.slice(0, 15);
+    
+    // Transform question objects to include full URLs for images
+    const protocol = req.protocol;
+    const host = req.get('host');
+    const baseUrl = `${protocol}://${host}`;
+
+    const transformed = selected.map(q => {
+      if (q.image) {
+        // e.g. "assets/data/question_images/q_img_0.jpeg" -> "/images/question_images/q_img_0.jpeg"
+        const imageName = path.basename(q.image);
+        return {
+          ...q,
+          image: `${baseUrl}/images/question_images/${imageName}`
+        };
+      }
+      return q;
+    });
+    
+    res.json({ success: true, questions: transformed });
+  } catch (error) {
+    console.error('Error fetching quiz:', error);
+    res.status(500).json({ error: 'Failed to fetch quiz questions' });
+  }
+});
+
+// Alias for submit-quiz to match user request
+app.post('/api/submit-quiz', authenticateToken, async (req, res) => {
   const { score, attempted, correct, wrong, percentage, result } = req.body;
-  const userId = req.user.id; // securely retrieved from valid JWT token
+  const userId = req.user.id;
 
   if (score === undefined) {
     return res.status(400).json({ error: 'Missing required fields' });
@@ -242,6 +287,39 @@ app.post('/api/saveQuizResult', authenticateToken, async (req, res) => {
     );
 
     res.json({ success: true, message: 'Quiz result saved successfully' });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: 'Internal server error' });
+  }
+});
+
+// Alias for user/results to match user request
+app.get('/api/user/results', authenticateToken, async (req, res) => {
+  const userId = req.user.id;
+  
+  try {
+    const [statsRows] = await pool.query(`
+      SELECT 
+        COUNT(*) as total_tests,
+        SUM(CASE WHEN result = 'PASS' THEN 1 ELSE 0 END) as tests_passed,
+        MAX(score) as best_score,
+        AVG(score) as average_score
+      FROM quiz_attempts 
+      WHERE user_id = ?
+    `, [userId]);
+
+    const [historyRows] = await pool.query(`
+      SELECT * FROM quiz_attempts 
+      WHERE user_id = ? 
+      ORDER BY created_at DESC 
+      LIMIT 10
+    `, [userId]);
+
+    res.json({
+      success: true,
+      stats: statsRows[0],
+      history: historyRows
+    });
   } catch (error) {
     console.error(error);
     res.status(500).json({ error: 'Internal server error' });
