@@ -185,16 +185,6 @@ class _QuizScreenState extends State<QuizScreen> {
                                   });
                                   
                                   if (!quizProvider.isQuizActive) {
-                                    // Submit to backend
-                                    final authProvider = Provider.of<AuthProvider>(context, listen: false);
-                                    authProvider.saveQuizResult(
-                                      score: quizProvider.score,
-                                      attempted: quizProvider.attemptedQuestions,
-                                      correct: quizProvider.score,
-                                      wrong: quizProvider.attemptedQuestions - quizProvider.score,
-                                      percentage: (quizProvider.score / quizProvider.quizQuestions.length) * 100,
-                                      result: quizProvider.isPass ? 'PASS' : 'FAIL',
-                                    );
                                     Navigator.pushReplacementNamed(context, '/result');
                                   }
                                 },

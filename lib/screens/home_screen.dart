@@ -39,8 +39,11 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
           IconButton(
             icon: const Icon(Icons.logout),
-            onPressed: () {
-              authProvider.logout();
+            onPressed: () async {
+              await authProvider.logout();
+              if (context.mounted) {
+                Navigator.of(context).pushNamedAndRemoveUntil('/', (route) => false);
+              }
             },
           )
         ],
@@ -249,13 +252,50 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
             title: Text('Score: ${item['score']}/${item['total_questions']}'),
             subtitle: Text('Date: $dateStr'),
-            trailing: Text(
-              '${item['percentage']}%',
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-                color: isPass ? Colors.green : Colors.red,
-                fontSize: 16
-              ),
+            trailing: Row(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Text(
+                  '${item['percentage']}%',
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    color: isPass ? Colors.green : Colors.red,
+                    fontSize: 16
+                  ),
+                ),
+                IconButton(
+                  icon: const Icon(Icons.delete_outline, color: Colors.grey),
+                  onPressed: () {
+                    showDialog(
+                      context: context,
+                      builder: (ctx) => AlertDialog(
+                        title: const Text('Delete Result?'),
+                        content: const Text('Are you sure you want to delete this quiz result? This will also update your overall assessment.'),
+                        actions: [
+                          TextButton(onPressed: () => Navigator.pop(ctx), child: const Text('CANCEL')),
+                          TextButton(
+                            onPressed: () async {
+                              Navigator.pop(ctx);
+                              final success = await Provider.of<AuthProvider>(context, listen: false).deleteQuizAttempt(item['id']);
+                              if (!context.mounted) return;
+                              if (success) {
+                                ScaffoldMessenger.of(context).showSnackBar(
+                                  const SnackBar(content: Text('History item deleted'))
+                                );
+                              } else {
+                                ScaffoldMessenger.of(context).showSnackBar(
+                                  const SnackBar(content: Text('Failed to delete item'), backgroundColor: Colors.red)
+                                );
+                              }
+                            }, 
+                            child: const Text('DELETE', style: TextStyle(color: Colors.red))
+                          ),
+                        ],
+                      )
+                    );
+                  },
+                )
+              ],
             ),
           ),
         );

@@ -326,6 +326,27 @@ app.get('/api/user/results', authenticateToken, async (req, res) => {
   }
 });
 
+app.delete('/api/quiz-attempt/:id', authenticateToken, async (req, res) => {
+  const attemptId = req.params.id;
+  const userId = req.user.id;
+
+  try {
+    const [result] = await pool.query(
+      'DELETE FROM quiz_attempts WHERE id = ? AND user_id = ?',
+      [attemptId, userId]
+    );
+
+    if (result.affectedRows === 0) {
+      return res.status(404).json({ error: 'Quiz attempt not found or unauthorized' });
+    }
+
+    res.json({ success: true, message: 'Quiz attempt deleted successfully' });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: 'Internal server error' });
+  }
+});
+
 app.get('/api/getUserResults/:userId', authenticateToken, async (req, res) => {
   // We can enforce that users only get their own results
   if (req.user.id !== parseInt(req.params.userId, 10)) {

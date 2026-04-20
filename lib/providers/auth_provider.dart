@@ -141,6 +141,14 @@ class AuthProvider with ChangeNotifier {
     }
   }
 
+  Future<bool> deleteQuizAttempt(int attemptId) async {
+    final success = await _apiService.deleteQuizAttempt(attemptId);
+    if (success) {
+      await fetchAssessment();
+    }
+    return success;
+  }
+
   Future<void> _saveEmailToHistory(String email) async {
     final prefs = await SharedPreferences.getInstance();
     List<String> savedEmails = prefs.getStringList('saved_emails') ?? [];

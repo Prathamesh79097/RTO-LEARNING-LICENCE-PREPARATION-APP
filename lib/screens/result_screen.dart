@@ -84,7 +84,7 @@ class _ResultScreenState extends State<ResultScreen> {
       canPop: false,
       onPopInvokedWithResult: (didPop, result) {
         if (didPop) return;
-        Navigator.pushNamedAndRemoveUntil(context, '/home', (route) => false);
+        Navigator.pushNamedAndRemoveUntil(context, '/', (route) => false);
       },
       child: Scaffold(
         appBar: AppBar(
@@ -149,7 +149,7 @@ class _ResultScreenState extends State<ResultScreen> {
                   width: double.infinity,
                   child: ElevatedButton(
                     onPressed: () {
-                      Navigator.pushNamedAndRemoveUntil(context, '/home', (route) => false);
+                      Navigator.pushNamedAndRemoveUntil(context, '/', (route) => false);
                     },
                     style: ElevatedButton.styleFrom(
                       padding: const EdgeInsets.symmetric(vertical: 16),

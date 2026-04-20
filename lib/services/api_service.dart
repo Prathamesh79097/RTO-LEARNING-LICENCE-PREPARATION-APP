@@ -1,10 +1,17 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:flutter/foundation.dart';
 import '../models/question.dart';
 
 class ApiService {
-  static const String baseUrl = "https://rto-learning-licence-preparation-app.onrender.com/api";
+  // Use localhost for local development (Chrome/Desktop), otherwise use production
+  static String get baseUrl {
+    if (kIsWeb && kDebugMode) {
+      return "http://localhost:3000/api";
+    }
+    return "https://rto-learning-licence-preparation-app.onrender.com/api";
+  }
 
   // Shared preferences keys
   static const String keyToken = 'auth_token';
@@ -145,6 +152,30 @@ class ApiService {
       throw Exception('Failed to fetch results');
     } catch (e) {
       rethrow;
+    }
+  }
+  
+  // 6. Delete Quiz Attempt
+  Future<bool> deleteQuizAttempt(int attemptId) async {
+    try {
+      final url = Uri.parse('$baseUrl/quiz-attempt/$attemptId');
+      debugPrint("Attempting to delete: $url");
+      
+      final response = await http.delete(
+        url,
+        headers: await _getHeaders(),
+      );
+      
+      debugPrint("Delete response: ${response.statusCode} - ${response.body}");
+      
+      if (response.statusCode == 200) {
+        final data = jsonDecode(response.body);
+        return data['success'] == true;
+      }
+      return false;
+    } catch (e) {
+      debugPrint("Error during delete: $e");
+      return false;
     }
   }
 

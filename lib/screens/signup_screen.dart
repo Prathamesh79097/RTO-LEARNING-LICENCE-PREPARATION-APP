@@ -51,7 +51,7 @@ class _SignupScreenState extends State<SignupScreen> {
         }
       } else {
         if (!mounted) return;
-        Navigator.pushReplacementNamed(context, '/home');
+        Navigator.pushNamedAndRemoveUntil(context, '/', (route) => false);
       }
     }
   }
