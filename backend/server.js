@@ -6,6 +6,8 @@ const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const helmet = require('helmet');
 const rateLimit = require('express-rate-limit');
+const fs = require('fs');
+const path = require('path');
 
 const app = express();
 
@@ -24,28 +26,55 @@ const authLimiter = rateLimit({
   message: { error: 'Too many login attempts, please try again after 15 minutes' }
 });
 
-// MySQL Database configuration from .env
+// MySQL Database configuration - Support local and Railway environment variables
 const dbConfig = {
-  host: process.env.DB_HOST || 'localhost',
-  user: process.env.DB_USER || 'root',
-  password: process.env.DB_PASS || '', 
+  host: process.env.MYSQLHOST || process.env.DB_HOST || 'localhost',
+  user: process.env.MYSQLUSER || process.env.DB_USER || 'root',
+  password: process.env.MYSQLPASSWORD || process.env.DB_PASS || '',
+  port: parseInt(process.env.MYSQLPORT || '3306', 10),
 };
+
+const DB_NAME = process.env.MYSQLDATABASE || process.env.DB_NAME || 'rto_app_db';
 
 let pool;
 
 async function initDB() {
   try {
+    // 1. First connect without a database to ensure it exists (if permitted)
     const connection = await mysql.createConnection(dbConfig);
-    await connection.query(`CREATE DATABASE IF NOT EXISTS \`${process.env.DB_NAME || 'rto_app_db'}\``);
+    await connection.query(`CREATE DATABASE IF NOT EXISTS \`${DB_NAME}\``);
     await connection.end();
 
+    // 2. Now create the pool with the target database selected
     pool = mysql.createPool({
       ...dbConfig,
-      database: process.env.DB_NAME || 'rto_app_db',
+      database: DB_NAME,
       waitForConnections: true,
       connectionLimit: 10,
-      queueLimit: 0
+      queueLimit: 0,
+      multipleStatements: true, // Required for executing the full database.sql script
+      ssl: process.env.MYSQL_SSL ? { rejectUnauthorized: false } : undefined // Handle Railway SSL if needed
     });
+
+    // 3. Automated Seeding: Check if tables exist. If not, seed from database.sql
+    const [tables] = await pool.query("SHOW TABLES LIKE 'users'");
+    if (tables.length === 0) {
+      console.log('Fresh database detected. Attempting to seed from database.sql...');
+      const sqlPath = path.join(__dirname, 'database.sql');
+      
+      if (fs.existsSync(sqlPath)) {
+        try {
+          const sql = fs.readFileSync(sqlPath, 'utf8');
+          await pool.query(sql);
+          console.log('Database seeded successfully from database.sql.');
+        } catch (seedError) {
+          console.error('Error during database seeding:', seedError);
+          // Don't exit, try to continue with standard table creation below
+        }
+      } else {
+        console.warn('database.sql not found in backend directory. Skipping auto-seed.');
+      }
+    }
 
     const createUsersTableQuery = `
       CREATE TABLE IF NOT EXISTS users (
