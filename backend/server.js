@@ -26,34 +26,39 @@ const authLimiter = rateLimit({
   message: { error: 'Too many login attempts, please try again after 15 minutes' }
 });
 
-// MySQL Database configuration - Support local and Railway environment variables
+// MySQL Database configuration - Using names from .env file
 const dbConfig = {
-  host: process.env.MYSQLHOST || process.env.DB_HOST || 'localhost',
-  user: process.env.MYSQLUSER || process.env.DB_USER || 'root',
-  password: process.env.MYSQLPASSWORD || process.env.DB_PASS || '',
+  host: process.env.MYSQLHOST || 'localhost',
+  user: process.env.MYSQLUSER || 'root',
+  password: process.env.MYSQLPASSWORD || '',
   port: parseInt(process.env.MYSQLPORT || '3306', 10),
+  database: process.env.MYSQLDATABASE || 'rto_app_db'
 };
-
-const DB_NAME = process.env.MYSQLDATABASE || process.env.DB_NAME || 'rto_app_db';
 
 let pool;
 
 async function initDB() {
   try {
-    // 1. First connect without a database to ensure it exists (if permitted)
-    const connection = await mysql.createConnection(dbConfig);
-    await connection.query(`CREATE DATABASE IF NOT EXISTS \`${DB_NAME}\``);
+    // 1. Connection using exact pattern requested by user
+    const connection = await mysql.createConnection({
+      host: dbConfig.host,
+      user: dbConfig.user,
+      password: dbConfig.password,
+      port: dbConfig.port
+    });
+
+    // 2. Ensure database exists
+    await connection.query(`CREATE DATABASE IF NOT EXISTS \`${dbConfig.database}\``);
     await connection.end();
 
-    // 2. Now create the pool with the target database selected
+    // 3. Create the pool for application-wide use
     pool = mysql.createPool({
       ...dbConfig,
-      database: DB_NAME,
       waitForConnections: true,
       connectionLimit: 10,
       queueLimit: 0,
-      multipleStatements: true, // Required for executing the full database.sql script
-      ssl: process.env.MYSQL_SSL ? { rejectUnauthorized: false } : undefined // Handle Railway SSL if needed
+      multipleStatements: true,
+      ssl: process.env.MYSQL_SSL ? { rejectUnauthorized: false } : undefined
     });
 
     // 3. Automated Seeding: Check if tables exist. If not, seed from database.sql
