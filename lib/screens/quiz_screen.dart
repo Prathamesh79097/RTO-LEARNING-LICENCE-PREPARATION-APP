@@ -11,6 +11,7 @@ class QuizScreen extends StatefulWidget {
 
 class _QuizScreenState extends State<QuizScreen> {
   String? selectedOption;
+  bool _isInitialized = false;
 
   void _showExitWarningDialog(BuildContext context, QuizProvider quizProvider) {
     showDialog(
@@ -42,6 +43,11 @@ class _QuizScreenState extends State<QuizScreen> {
   Widget build(BuildContext context) {
     return Consumer<QuizProvider>(
       builder: (context, quizProvider, child) {
+        if (!_isInitialized && quizProvider.isQuizActive) {
+          selectedOption = quizProvider.getUserAnswer(quizProvider.currentQuestionIndex);
+          _isInitialized = true;
+        }
+
         final currentQuestion = quizProvider.currentQuestion;
 
         return PopScope(
@@ -174,30 +180,62 @@ class _QuizScreenState extends State<QuizScreen> {
                         ),
                         
                         const SizedBox(height: 16),
-                        ElevatedButton(
-                          onPressed: selectedOption == null
-                              ? null
-                              : () {
-                                  quizProvider.answerQuestion(selectedOption!);
-                                  setState(() {
-                                    selectedOption = null;
-                                  });
-                                  
-                                  if (!quizProvider.isQuizActive) {
-                                    Navigator.pushReplacementNamed(context, '/result');
-                                  }
-                                },
-                          style: ElevatedButton.styleFrom(
-                            padding: const EdgeInsets.symmetric(vertical: 16),
-                            backgroundColor: Theme.of(context).colorScheme.primaryContainer,
-                            foregroundColor: Theme.of(context).colorScheme.onPrimaryContainer,
-                          ),
-                          child: Text(
-                            quizProvider.currentQuestionIndex == quizProvider.quizQuestions.length - 1
-                                ? 'Finish Test'
-                                : 'Next Question',
-                            style: const TextStyle(fontSize: 18),
-                          ),
+                        Row(
+                          children: [
+                            // Previous Button
+                            Expanded(
+                              child: OutlinedButton(
+                                onPressed: quizProvider.currentQuestionIndex == 0
+                                    ? null
+                                    : () {
+                                        if (selectedOption != null) {
+                                          quizProvider.selectAnswer(selectedOption!);
+                                        }
+                                        quizProvider.previousQuestion();
+                                        setState(() {
+                                          selectedOption = quizProvider.getUserAnswer(quizProvider.currentQuestionIndex);
+                                        });
+                                      },
+                                style: OutlinedButton.styleFrom(
+                                  padding: const EdgeInsets.symmetric(vertical: 16),
+                                  side: BorderSide(color: Theme.of(context).colorScheme.primary),
+                                ),
+                                child: const Text('Previous', style: TextStyle(fontSize: 18)),
+                              ),
+                            ),
+                            const SizedBox(width: 16),
+                            // Next/Finish Button
+                            Expanded(
+                              child: ElevatedButton(
+                                onPressed: selectedOption == null
+                                    ? null
+                                    : () {
+                                        quizProvider.selectAnswer(selectedOption!);
+                                        
+                                        if (quizProvider.currentQuestionIndex == quizProvider.quizQuestions.length - 1) {
+                                          quizProvider.completeQuiz();
+                                          Navigator.pushReplacementNamed(context, '/result');
+                                        } else {
+                                          quizProvider.nextQuestion();
+                                          setState(() {
+                                            selectedOption = quizProvider.getUserAnswer(quizProvider.currentQuestionIndex);
+                                          });
+                                        }
+                                      },
+                                style: ElevatedButton.styleFrom(
+                                  padding: const EdgeInsets.symmetric(vertical: 16),
+                                  backgroundColor: Theme.of(context).colorScheme.primaryContainer,
+                                  foregroundColor: Theme.of(context).colorScheme.onPrimaryContainer,
+                                ),
+                                child: Text(
+                                  quizProvider.currentQuestionIndex == quizProvider.quizQuestions.length - 1
+                                      ? 'Finish Test'
+                                      : 'Next Question',
+                                  style: const TextStyle(fontSize: 18),
+                                ),
+                              ),
+                            ),
+                          ],
                         ),
                         const SizedBox(height: 20),
                       ],

@@ -9,18 +9,16 @@ class QuizProvider with ChangeNotifier {
   
   List<Question> _quizQuestions = [];
   int _currentQuestionIndex = 0;
-  int _score = 0;
-  int _attemptedQuestions = 0;
   bool _isQuizActive = false;
   bool _isLoading = false;
   List<int> _recentQuestionIds = [];
+  Map<int, String> _userAnswers = {};
 
   List<Question> get quizQuestions => _quizQuestions;
   int get currentQuestionIndex => _currentQuestionIndex;
-  int get score => _score;
-  int get attemptedQuestions => _attemptedQuestions;
   bool get isQuizActive => _isQuizActive;
   bool get isLoading => _isLoading;
+  String? getUserAnswer(int index) => _userAnswers[index];
 
   QuizProvider() {
     _loadSeenIds();
@@ -66,8 +64,7 @@ class QuizProvider with ChangeNotifier {
       await _saveSeenIds();
 
       _currentQuestionIndex = 0;
-      _score = 0;
-      _attemptedQuestions = 0;
+      _userAnswers = {};
       _isQuizActive = true;
     } catch (e) {
       debugPrint("Error fetching quiz: $e");
@@ -78,37 +75,66 @@ class QuizProvider with ChangeNotifier {
     }
   }
 
-  void answerQuestion(String selectedOption) {
+  void selectAnswer(String selectedOption) {
     if (!_isQuizActive) return;
+    _userAnswers[_currentQuestionIndex] = selectedOption;
+    notifyListeners();
+  }
 
-    if (currentQuestion != null && selectedOption == currentQuestion!.answer) {
-      _score++;
-    }
-    
-    _attemptedQuestions++;
-
+  void nextQuestion() {
     if (_currentQuestionIndex < _quizQuestions.length - 1) {
       _currentQuestionIndex++;
-    } else {
-      _isQuizActive = false; // Quiz finished naturally
+      notifyListeners();
     }
-    notifyListeners();
+  }
+
+  void previousQuestion() {
+    if (_currentQuestionIndex > 0) {
+      _currentQuestionIndex--;
+      notifyListeners();
+    }
+  }
+
+  // Legacy method kept for compatibility if needed, but updated
+  void answerQuestion(String selectedOption) {
+    selectAnswer(selectedOption);
+    if (_currentQuestionIndex < _quizQuestions.length - 1) {
+      nextQuestion();
+    } else {
+      _isQuizActive = false;
+    }
   }
 
   void endQuizEarly() {
     _isQuizActive = false;
     notifyListeners();
   }
+
+  void completeQuiz() {
+    endQuizEarly();
+  }
   
   void resetQuiz() {
     _isQuizActive = false;
     _quizQuestions = [];
     _currentQuestionIndex = 0;
-    _score = 0;
-    _attemptedQuestions = 0;
+    _userAnswers = {};
     notifyListeners();
   }
 
+  // Calculate score dynamically
+  int get score {
+    int s = 0;
+    _userAnswers.forEach((index, answer) {
+      if (index < _quizQuestions.length && answer == _quizQuestions[index].answer) {
+        s++;
+      }
+    });
+    return s;
+  }
+
+  int get attemptedQuestions => _userAnswers.length;
+
   // Calculate if PASS (>= 9 correct)
-  bool get isPass => _score >= 9;
+  bool get isPass => score >= 9;
 }
